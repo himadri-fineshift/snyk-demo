@@ -1,4 +1,4 @@
-FROM node:iron-bookworm-slim
+FROM node:20.15.0-slim
 
 RUN mkdir /usr/src/goof
 RUN mkdir /tmp/extracted_files
